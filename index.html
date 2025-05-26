@@ -1,67 +1,71 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kenthan Electrical Services</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f8fc;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #004080;
-            color: white;
-            padding: 20px 10px;
-            text-align: center;
-        }
-        section {
-            padding: 20px;
-        }
-        .contact {
-            background-color: #e8f0fe;
-            padding: 10px;
-            border-radius: 5px;
-            margin-top: 20px;
-        }
-        footer {
-            text-align: center;
-            padding: 15px;
-            background-color: #004080;
-            color: white;
-            margin-top: 30px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kenthan Electrical Services</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Kenthan Electrical Services</h1>
-        <p>Professional Electrical Engineering & Contracting</p>
-    </header>
-    <section>
-        <h2>Welcome</h2>
-        <p>We are a trusted electrical engineering and contracting company offering professional and affordable services to meet your residential, commercial, and industrial electrical needs.</p>
+  <header>
+    <h1>Kenthan Electrical Services</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-        <h2>Our Services</h2>
-        <ul>
-            <li>Electrical installation and maintenance</li>
-            <li>Wiring for homes and businesses</li>
-            <li>Power backup systems (solar, inverters, generators)</li>
-            <li>Electrical inspections and troubleshooting</li>
-        </ul>
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>We offer expert electrical engineering and contracting solutions for homes, offices, and industries.</p>
+  </section>
 
-        <div class="contact">
-            <h3>Contact Us</h3>
-            <p>Email: <a href="mailto:njoraken@gmail.com">njoraken@gmail.com</a></p>
-            <p>Phone: <a href="tel:+254795545455">0795545455</a></p>
-        </div>
-    </section>
-    <footer>
-        &copy; 2025 Kenthan Electrical Services. All rights reserved.
-    </footer>
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Electrical installation & maintenance</li>
+      <li>Solar & backup systems</li>
+      <li>Home & office wiring</li>
+      <li>CCTV & security systems</li>
+      <li>Electrical audits & repairs</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>Below are samples of our completed work:</p>
+    <div class="projects">
+      <img src="images/project1.jpg" alt="Project 1" />
+      <img src="images/project2.jpg" alt="Project 2" />
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Image Gallery</h2>
+    <div class="gallery">
+      <img src="images/gallery1.jpg" alt="Gallery 1" />
+      <img src="images/gallery2.jpg" alt="Gallery 2" />
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form name="contactForm" onsubmit="return submitForm()">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p>Email: <a href="mailto:njoraken@gmail.com">njoraken@gmail.com</a></p>
+    <p>Phone: <a href="tel:+254795545455">0795545455</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kenthan Electrical Services</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>

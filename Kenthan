@@ -1,0 +1,123 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Njoraken Electrical Services</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      color: #333;
+      background: #f4f4f4;
+    }
+    header {
+      background: #0073e6;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #005bb5;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    h2 {
+      color: #0073e6;
+    }
+    .contact-info {
+      font-size: 1.2em;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    footer {
+      background: #005bb5;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Njoraken Electrical Services</h1>
+  <p>Reliable Electrical Engineering & Contracting Solutions</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I’m a certified electrical engineer and contractor dedicated to providing quality, safe, and efficient electrical solutions. With years of experience in residential, commercial, and industrial projects, I take pride in delivering reliable services tailored to my clients' needs.</p>
+</section>
+
+<section id="services">
+  <h2>Services</h2>
+  <ul>
+    <li>Electrical Installations</li>
+    <li>Wiring and Rewiring</li>
+    <li>Lighting Systems</li>
+    <li>Power Backup Solutions</li>
+    <li>Electrical Maintenance & Repairs</li>
+    <li>Consultation and Site Assessments</li>
+  </ul>
+</section>
+
+<section id="projects">
+  <h2>Past Projects</h2>
+  <p>Below are some examples of my completed work:</p>
+  <div class="gallery">
+    <img src="images/project1.jpg" alt="Project 1">
+    <img src="images/project2.jpg" alt="Project 2">
+    <img src="images/project3.jpg" alt="Project 3">
+    <!-- Add more images as needed -->
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p class="contact-info">
+    Phone: <strong>0795545455</strong><br />
+    Email: <strong>njoraken@gmail.com</strong>
+  </p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Njoraken Electrical Services. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
